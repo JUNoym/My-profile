@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>大山純矢｜自己紹介ページ</title>
+</head>
+
+<body>
+    <header class="l-header fixed-nav">
+        <div class="l-header-inner">
+            <h1 class="l-product-logo">
+                <a href="/" target="_self">
+                    <img alt="自己紹介ロゴ" src="./assets/img/icons/logo.png" />
+                </a>
+            </h1>
+            <!-- スマホのハンバガーメニュー-->
+            <button class="nav-toggle-button outside" data-about-nav-toggle aria-label="ナビゲーション メニューの切り替え"
+                id="nav-toggle-button">
+                <img alt="ナビゲーション メニューを開く" class="menu-bars" src="./assets/img/icons/menu.png" height="24" width="24">
+                <img alt="ナビゲーション メニューを閉じる" class="menu-close" src="./assets/img/icons/close.png" height="24"
+                    width="24">
+            </button>
+            <nav class="l-header__nav-top">
+
+                <ul>
+                    <li><a href="#about" target="_self">about</a></li>
+                    <li><a href="#portfolio" target="_self">Portfolio</a></li>
+                    <li>
+                        <a class="sns" href="https://twitter.com/jmom666" target="_blank">
+                            <img src="./assets/img/icons/twitter_logo.png">
+
+                        </a>
+                    </li>
+                    <li>
+                        <a class="git" href="https://github.com/JUNoym" target="_blank">
+                            <img src="./assets/img/icons/GitHub_Logo.png">
+
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+            <div class="black-bg" id="js-black-bg"></div> <!-- メニュー表示中の背景要素 -->
+        </div>
+    </header>
+
+
+    <main>
+        <section>
+            <div class="p-grid__view-first">
+                <div>
+                    <h2>My profile</h2>
+                    <p>大山純矢の自己紹介ページです</p>
+                    <a class="p-btn-round p-icon__arrow-next" href="https://github.com/JUNoym" role="button">Github</a>
+                    <a name="about"></a>
+                </div>
+                <img src="./assets/img/view/first-view.jpg" alt="First View">
+            </div>
+        </section>
+
+        <section>
+            <div class="module-spacer--medium"></div>
+        </section>
+
+        <section class="c-section">
+            <div class="c-section-wrapin p-grid__vision">
+                <h1 class="animated slow" data-animate="fadeInUp">IT技術を用いて便利な世の中に</h1>
+                <div data-label="description">
+                    <p class="animated slow" data-animate="fadeInUp">
+                        私が職業を選択する上で<br>
+                        もっとも大切にしている理念は<br>
+                        多くの人に役に立てるかどうかです。
+                    </p>
+                    <p class="animated slow" data-animate="fadeInUp">
+                        私は介護でアルバイトをしています。<br>
+                        人の役に立てる良い職業だと思っています。<br>
+                        しかし、圧倒的な人手不足とアナログな業務形態により<br>
+                        日々の業務で手一杯になってしまい<br>
+                        利用者の方に楽しんで生活を送ってもらうという<br>
+                        本来の目的から遠ざかってるように思えます。
+                    </p>
+                    <p class="animated slow" data-animate="fadeInUp">
+                        テクノロジーを用いて業務を効率化することができれば<br>
+                        この現状を変えられるのではないかと思い<br>
+                        エンジニアという職業に魅力を感じています。<br>
+
+                    </p>
+                    <p class="animated slow" data-animate="fadeInUp">
+                        社会を豊かにするために技術を学び、提供していきたいと思っています。
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="c-section c-bg-primary">
+            <div class="c-section-wrapin">
+                <h2 class="p-headline__top" id="p-headline__top">Portfolio</h2>
+                <a name="portfolio"></a>
+                <hr class="c-section__line" />
+                <div class="module-spacer--small"></div>
+                <div class="module-spacer--medium"></div>
+                <div class="p-grid__list">
+                    <article class="p-grid__list-item-floated animated slow" data-animate="slideInLeft">
+                        <h3>Profile</h3>
+                        <small>Website Production</small>
+                        <img class="p-media__thumb" src="./assets/img/view/website-production.jpg" />
+                        <p>
+                            基本的なHTML CSS　JavaScriptを用いてWEB制作が可能です
+                        </p>
+                    </article>
+                    <div class="module-spacer--small"></div>
+                    <article class="p-grid__list-item-floated animated slow" data-animate="slideInRight">
+                        <h3><a href="https://hinatabot-15508.web.app/">ひなたボット</a></h3>
+                        <small>WEB APP DEV</small>
+                        <img class="p-media__thumb" src="./assets/img/view/web-app.jpeg" />
+                        <p>
+                            条件に合わせてPCを紹介するチャットボットを制作しました。<br>
+                            <br>
+                            <使用技術><br>
+                                <br>
+                                ・React<br>
+                                ・Redux<br>
+                                ・react-router<br>
+                                ・Material-Ui<br>
+                                ・Firebase Hosting<br>
+                                ・Firebase Authentication<br>
+                                ・Cloud Firestore<br>
+
+
+                        </p>
+                    </article>
+
+                    <article class="p-grid__list-item-floated animated slow" data-animate="slideInRight">
+                        <h3><a href="https://your-goodness.web.app/">Tweeter Bot</a></h3>
+                        <small>WEB APP DEV</small>
+                        <img class="p-media__thumb" src="./assets/img/view/web-app2.jpg" />
+                        <p>
+                            名前を入力すると入力された名前に応じて<br>
+                            良いところを診断してくれる <br>
+                            アプリケーションです。<br>
+                            <br>
+                            <使用言語> <br>
+                                ・Node.js <br>
+                                ・HTML　CSS　<br>
+                                <br>
+                                <使用技術><br>
+                                    ・Firebase Hosting<br>
+
+
+
+                        </p>
+                    </article>
+
+                </div>
+                <div class="module-spacer--small"></div>
+                <div class="module-spacer--medium"></div>
+                <div class="module-spacer--small"></div>
+                <div class="module-spacer--medium"></div>
+
+
+                <a class="p-btn-round p-icon__arrow-next" id="github" href="https://github.com/JUNoym"
+                    role="button">Github</a>
+                <div class="module-spacer--small"></div>
+                <div class="module-spacer--medium"></div>
+                <div class="module-spacer--small"></div>
+                <div class="module-spacer--medium"></div>
+            </div>
+        </section>
+
+
+    </main>
+
+    <footer>
+
+    </footer>
+    <script src="assets/js/menu.js" type="text/javascript"></script>
+</body>
+
+</html>
