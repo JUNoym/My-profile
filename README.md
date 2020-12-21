@@ -1,3 +1,3 @@
 # My-profile
 
-URL:https://my-profile-c4824.web.app/#about
+URL:https://my-profile-c4824.web.app
