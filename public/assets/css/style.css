@@ -16,6 +16,11 @@ body {
     height: 100vh;
     width: 100%;
 }
+  .p-grid__view-first a{
+   text-decoration: none;
+   font-weight: bold;
+   color: black;
+}
 
 small {
     font-size: 80%; 
@@ -52,11 +57,12 @@ small {
 }
 
 .p-grid__view-first div h2 {
+    font-family: 'Amatic SC', cursive;
     color: #fff;
-    font-size: 3.0rem;
+    font-size: 4.0rem;
     margin-bottom: 1rem;
-}
-.p-grid__view-first div p {
+  }
+  .p-grid__view-first div p {
     color: #fff;
     font-weight: 700;
     text-transform: uppercase;
@@ -97,7 +103,10 @@ small {
   }
 
   #github {
+      font-weight: bold;
+      text-decoration: none;
       background-color: grey;
+      color: rgb(0, 0, 0);
   }
 
 /* ヘッダー周りのCSS　*/
@@ -124,6 +133,9 @@ small {
     text-overflow: ellipsis;
     vertical-align: top;
     white-space: nowrap;
+  }
+  .l-header .l-product-logo a img{
+    margin-top: 40px;
   }
   .l-header.fixed-nav {
     overflow: visible;
@@ -193,13 +205,16 @@ small {
   }
   
   .l-header__nav-top ul {
+    margin-top: -40px;
     display: none;
     margin-left: 1.1rem;
     list-style: none;
   }
   
   .l-header__nav-top a {
-    color: #4c4c4c;
+    font-family: 'Amatic SC', cursive;
+    text-decoration: none;
+    color: #000000;
     font-weight: 300;
     letter-spacing: .01562rem;
     line-height: 1.375rem;
@@ -339,6 +354,10 @@ small {
   }
 
   /* Works周り */
+  .c-section h2 {
+    font-family: 'Amatic SC', cursive;
+    font-size: 40px;
+  }
   .c-section {
     padding: 2rem 0; }
     @media screen and (min-width: 1024px) {
@@ -477,6 +496,10 @@ small {
                 z-index: -10; } }
 
 /* ここから */
+.p-grid__list-item-floated > h3 > a {
+  text-decoration: none;
+  color: #000000;
+}
 
 .p-grid, .p-grid__about, .p-grid__profile, .p-grid__list, .p-grid__list-item, .p-grid__list-item-floated, .p-grid__row, .p-grid__table li, .p-grid__works div {
     display: -ms-flexbox;
